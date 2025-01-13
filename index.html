@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type = "text/javascript" src = "script.js"> </script>
+    <title>Guess That Character!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style=text-align:center>
+
+    <h1 id="title"><strong>Guess That Character!</strong></h1>
+    
+    <h2 id="intro" style="display:all">Can You Guess The Name Of Every Anime Character?</h2>
+
+    <img id = 'imageTest' src = ''</img>
+
+    <h2 id='score' style="display:none"> Your Score: 0</h2>
+
+    <button id="next" style="display:none" onclick=begin()>Next Question</button>
+
+    <button id="playButton" style='display:none' onclick=begin(play)><b>Play!</b></button>
+    
+    <h2 id="miscTrait" style="display:none"></h2>
+
+    <img src="" id="characterImage" style="display: none;"></img>
+
+    <img src="" id="testy" ></img>
+
+    <h2 id="congrats" style="display:none"></h2>
+
+    <div> 
+      <button type="button" id="answer1" class="button" style="display:none"></button>
+
+      <button type="button" id="answer2" class="button" style="display:none"></button>
+    </div>
+    <div>
+      <button type="button" id="answer3" class="button" style="display:none"></button>
+
+      <button type="button" id="answer4" class="button" style="display:none"></button> 
+    </div>
+
+    <script type = "text/JavaScript" src="https://cdn.jsdelivr.net/npm/lodash/lodash.min.js"></script>
+    <script src="lib/easytimer/dist/easytimer.min.js"></script>
+
+  </body>
+  
+</html>
+
+
+

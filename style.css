@@ -1,0 +1,111 @@
+ *{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body{
+  background-image: url(download.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  user-select: none;
+}
+
+#title{
+  font-size:6em;
+  color:white;
+  margin-top:15px;
+  margin-bottom:30px;
+}
+
+#intro{
+  color:white;
+  font-size: 2.5em;
+}
+
+#playButton{
+  background-color:white;
+  color:black;
+  width:100px;
+  transition-duration:0.5s;
+  font-family: "Monaco", monospace;
+  font-size:15px;
+  cursor: pointer;
+  border-radius:13px
+}
+
+#playButton:hover{
+  letter-spacing: 5px;
+}
+
+#miscTrait{
+  font-size:30px;
+  color:white;
+}
+
+#score{
+  font-size:30px;
+  color:white;
+  margin-top:-10px;
+}
+
+#feed {
+  color:white;
+  text-decoration:underline;
+  font-size:20px;
+  font-family: "Monaco", monospace;
+}
+
+#playButton {
+  width:200px;
+  height:40px;
+}
+
+#characterImage{
+  text-align:center;
+  width:400px;
+  height: 400px;
+  object-fit:cover;
+  border-radius:500px;
+}
+
+.button{
+  font-size: 1em;
+  color: #ffffff;
+  background: #171c24;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.button:hover{
+  letter-spacing: 6px;
+}
+
+#next{
+  text-align:center;
+  font-weight: bolder;
+  font-size:120%;
+  width:187px;
+  height:40px;
+  background-color:white;
+  color:black;
+  margin-bottom:4px;
+  border-radius:13px;
+  cursor:pointer;
+}
+
+#next:hover{
+  letter-spacing:2px;
+  height:50px;
+  transition-duration:1s;
+}
+
+#congrats{
+  color:white;    
+  text-align:center;
+  vertical-align: middle;
+}
